@@ -23,7 +23,7 @@ Blue, teal, rose, violet and orange.
 
 <br />
 
-<WMenu horizontal="md" compact  class="border w-auto !bg-base-200 shadow-0">
+<WMenu horizontal="md" compact  class="border rounded-$rounded-btn  w-auto !bg-base-200 shadow-0">
 <WButton menu-item @click="changeTheme('theme-default')"
 ><span class="theme-blue rounded-[0.5rem] bg-blue-700 h-10 w-10"></span>
 </WButton>

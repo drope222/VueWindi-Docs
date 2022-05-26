@@ -60,7 +60,7 @@ const getActive = computed(() => {
 
   const activeLink = `https://github.com/${
     theme.value.repo
-  }/blob/main${route.path.replace("html", "md")}`;
+  }-Docs/blob/main${route.path.replace("html", "md")}`;
 
   return activeLink;
 });
