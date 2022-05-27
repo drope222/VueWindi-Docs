@@ -11,7 +11,7 @@ import demoDisabled from "./demo/input/Disabled.vue"
 
 </script>
 
-# Dropdown component
+# Input component
 
 
 ---
