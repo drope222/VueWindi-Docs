@@ -1,9 +1,9 @@
 import { ref, onMounted } from "vue"
 
+const isDark = ref<boolean>(false)
+
 const useDark = () =>{
     
-    const isDark = ref<boolean>(false)
-
     onMounted(() => {
         const storaged = localStorage.getItem('dark')
 
