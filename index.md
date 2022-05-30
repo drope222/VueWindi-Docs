@@ -12,7 +12,7 @@ altActionText: Components
 altActionLink: /docs/button
 
 newsColor: warning
-newsTitle: ⚠ In early development 
+newsTitle: ⚠ VueWindi is in early development
 newsLink: /docs/getting-started.html
 
 footer: MIT Licensed | Copyright © 2022-present Pedro Melo

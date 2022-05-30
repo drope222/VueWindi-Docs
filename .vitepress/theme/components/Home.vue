@@ -10,7 +10,7 @@ import HomeExample from "./HomeExample.vue";
     <div class="flex  md:px-6">
       <div class="py-10 md:(py-16 px-10) lg:(px-33)">
         <HomeHero />
-        <!-- <HomeNews /> -->
+       <HomeNews /> 
         <HomeExample />
       </div>
     </div>
