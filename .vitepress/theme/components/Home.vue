@@ -3,13 +3,15 @@ import HomeNews from "./HomeNews.vue";
 import HomeHero from "./HomeHero.vue";
 import HomeFeatures from "./HomeFeatures.vue";
 import HomeFooter from "./HomeFooter.vue";
+import HomeExample from "./HomeExample.vue";
 </script>
 <template>
   <div class="pb-12">
-    <div class="flex items-center justify-center home md:px-6">
-      <div>
+    <div class="flex  md:px-6">
+      <div class="py-10 md:(py-16 px-10) lg:(px-33)">
         <HomeHero />
-        <HomeNews />
+        <!-- <HomeNews /> -->
+        <HomeExample />
       </div>
     </div>
     <HomeFeatures />

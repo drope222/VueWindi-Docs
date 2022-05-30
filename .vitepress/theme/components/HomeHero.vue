@@ -8,32 +8,31 @@ const data = frontmatter.value;
 
 </script>
 <template>
-  <div class="mb-12 md:mb-14">
-
-    <IconLogo v-if="!data.heroImage" class="mx-auto h-20" color="fill-primary-200"  />
+  <div class="">
+    
+    <IconLogo v-if="!data.heroImage" class="hidden mx-auto h-20" color="fill-primary-200"  />
     <img
       v-else
       :src="data.heroImage"
       class="mx-auto mb-4 h-20"
     />
-    <div class="text-center">
+    <div class=" max-w-2xl ">
       <h1
         v-if="data.heroText"
-        class="text-base-text text-3xl leading-10 font-semibold sm:text-5xl sm:leading-16"
+        class=" antialiased text-transparent bg-clip-text bg-gradient-to-r from-primary-100 to-primary-300 font-extrabold text-4xl leading-8 sm:text-5xl lg:text-6xl tracking-tight   sm:leading-16 "
       >
         {{ data.heroText }}
       </h1>
       <p
         v-if="data.tagline"
-        class="m-0 mt-2 text-lg opacity-75 leading-6 px-4 sm:text-xl"
+        class="m-0 mt-10 text-lg opacity-75 leading-6 font-medium  sm:text-2xl"
       >
         {{ data.tagline }}
       </p>
-      <div class="mt-8 flex space-x-4 justify-center">
+      <div class="mt-10 flex space-x-4 ">
         <WButton
           v-if="data.actionLink"
           size="md"
-          md="lg"
           tag="a"
           :href="data.actionLink"
           >{{ data.actionText }}</WButton
@@ -42,7 +41,6 @@ const data = frontmatter.value;
           v-if="data.altActionLink"
           variant="outline"
           size="md"
-          md="lg"
           tag="a"
           :href="data.altActionLink"
           >{{ data.altActionText }}</WButton

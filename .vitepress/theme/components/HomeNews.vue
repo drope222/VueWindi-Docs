@@ -15,9 +15,9 @@ else if(newsColor.value === 'danger') newsColor.value = 'bg-danger-200/10 text-d
 
 </script>
 <template>
-  <div v-if="data.newsTitle && data.newsLink" class="px-4 flex justify-center">
+  <div v-if="data.newsTitle && data.newsLink" class="">
     <a
-      class=" inline-flex rounded-$rounded-btn font-bold text-center p-3 md:p-4 lg:px-8 text-sm lg:text-base mx-8"
+      class=" inline-flex rounded-$rounded-btn font-bold  p-3 md:p-4 lg:px-8 text-sm lg:text-base mt-10"
       :class="newsColor"
       :href="data.newsLink"
     >

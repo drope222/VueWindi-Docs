@@ -3,7 +3,7 @@ home: true
 # heroImage: logo.svg
 heroAlt: Logo image
 heroText: VueWindi
-tagline: Vue 3 + WindiCSS component library
+tagline: Component library for vue 3 using Windi CSS, most components are using daisyUI styles.
 
 actionText: Get Started
 actionLink: /docs/getting-started
